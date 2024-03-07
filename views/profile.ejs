@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/profile.css">
+  </head>
+  <body>
+    <div class="containerpers">
+        <div class="cardpers ">
+          <div class="profile-picture">
+            <img src="https://images.unsplash.com/photo-1533618561606-3b2a0766d159?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGluc3RhZ3JhbSUyMGRwfGVufDB8fDB8fHww" alt="Profile Picture">
+          </div>
+          <h2 class="name"><%=user.fullname%></h2>
+          <h3 class="username"><%=user.username%></h3>
+          <p class="tagline">hey there welcome to my Pinterest</p>
+          <p class="description">I love sharing my content with you all</p>
+          <a href="/logout" class="button">Logout</a>
+          
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1516832407476-8aebc115e85c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGluc3RhZ3JhbSUyMGRwfGVufDB8fDB8fHww" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">All designs</h5>
+            </div>
+          </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
